@@ -12,6 +12,7 @@ import logging
 from functools import partial
 logger = logging.getLogger(__name__)
 
+import src.configure_environment
 from src import dataset
 from src import callbacks as avail_callbacks 
 from src.model import MMTM_MVCNN
